@@ -1,0 +1,28 @@
+{
+    "name": "igonics/laravel-paypal-ipn",
+    "description": "PayPal IPN client for Laravel 5",
+    "keywords": ["paypal", "ipn", "laravel","igonics"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gggordon",
+            "email": "ggordon@igonics.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "mike182uk/paypal-ipn-listener": "^5.0",
+        "illuminate/support": "^5.2"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "IGonics\\PayPalIpnLaravel\\": "src/"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.0"
+    }
+}
